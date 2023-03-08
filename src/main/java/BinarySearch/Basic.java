@@ -13,7 +13,7 @@ public class Basic {
     public static void main(String[] args) {
         int[] arr = new int[]{2,7,8,18,34,45,78,190};
         int target = 8;
-//        System.out.println(binarySearchBasic(arr, target));
+        System.out.println(binarySearchBasic(arr, target));
         System.out.println(binarySearchAlterNative(arr, target));
 
     }
